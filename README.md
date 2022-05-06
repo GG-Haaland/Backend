@@ -1,3 +1,28 @@
+
+<!-- <div align="center">
+  <img alt="Logo" src="https://yusong.space/wp-content/uploads/2022/05/Ellipse-1.png" width="100" />
+  <h6>*Logo not finalized yet<h6>
+</div> -->
+<h1 align="center">
+ HandMeDown 
+</h1>
+<p align="center">
+  The Capstone Project of GA GA SEI Cohort built with <a href="https://vuejs.org/" target="_blank">Vue</a>, <a href="https://www.djangoproject.com/" target="_blank">Django</a> By GJ Haaland
+</p>
+<p align="center">
+  Follow me:
+  <a href="https://www.linkedin.com/in/gj-haaland-b3b131b7/" target="_blank">LinkedIn</a>,
+  <a href="https://github.com/GG-Haaland" target="_blank">Github</a>,
+  <a href="https://www.instagram.com/gee_eej/" target="_blank">Instagram</a>
+</p>
+<div align="center">
+
+  
+  [![Trello](https://img.shields.io/badge/-Trello-0052CC?style=for-the-badge&logo=Trello&logoColor=FFFFFF)](https://trello.com/b/pse5mXnf/bike-nyc)
+
+</div>
+
+
 # Backend
 HandMeDown back end
 # **HandMeDown**
