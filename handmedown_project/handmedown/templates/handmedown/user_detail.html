@@ -1,0 +1,19 @@
+{% extends 'handmedown/base.html' %} {% block content %}
+<h2>{{ user.first_name }} {{ user.last_name }} <a href="{% url 'user_edit' pk=user.pk %}">(edit)</a></h2>
+<h4>{{ user.usernme }}</h4>
+
+<img src="{{ user.photo_url }}" alt="" class="user-photo" />
+
++ <a href="{% url 'user_delete' pk=user.pk %}">Delete</a>
+
+<h3>Songs <a href="">(+)</a></h3>
+<ul>
+  {% for post in user.posts.all %}
+  <li>
+    <a href="{% url 'post_detail' pk=post.pk %}">
+      {{ post.name }}
+    </a>
+  </li>
+  {% endfor %}
+</ul>
+{% endblock %}
