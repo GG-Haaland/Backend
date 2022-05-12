@@ -1,4 +1,4 @@
 -- settings.sql
-CREATE DATABASE handmedown;
-CREATE USER hmduser WITH PASSWORD 'password';
-GRANT ALL PRIVILEGES ON DATABASE handmedown TO hmduser;
+CREATE DATABASE handmedown_with_auth;
+CREATE USER handuser WITH PASSWORD 'password';
+GRANT ALL PRIVILEGES ON DATABASE handmedown_with_auth TO handuser;
